@@ -10,3 +10,8 @@ git clone https://github.com/Steiner-254/Steiner254-XSS.git
 2 - Add list of urls containing parameters to scan into url.txt
 
 3 - python3 Steiner254-XSS.py
+
+# T/C
+I will not be Responsible for any attack that comes from this tool.
+
+#Happy Hacking :)
