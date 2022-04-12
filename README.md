@@ -2,7 +2,21 @@
 Cross Site Scripting Python based Automation Tool. This tool helps Bug Bounty Hunters, Penetration Testers and Web Security Reseachers to scan and detect XSS vulnerabilities easily.
 
 # Installation
+```
 git clone https://github.com/Steiner-254/Steiner254-XSS.git
+```
+```
+cd Steiner254-XSS
+```
+```
+virtualenv venv
+```
+```
+source venv/activate/bin
+```
+```
+pip3 install -r requirements.txt
+```
 
 # Usage
 1 - cd Steiner254-XSS
