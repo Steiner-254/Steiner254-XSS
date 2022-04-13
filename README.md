@@ -9,7 +9,9 @@ git clone https://github.com/Steiner-254/Steiner254-XSS.git
 # Usage
 1 - cd Steiner254-XSS
 
-2 - python3 Steiner254-XSS.py
+2 - Add list of ypur target urls containing parameters in url.txt
+
+3 - python3 Steiner254-XSS.py
 
 # T/C
 I will not be Responsible for any attack that comes from this tool.
