@@ -1,5 +1,7 @@
+from traceback import print_tb
 import requests
 import threading
+import sys
 from colorama import Fore, Back, Style
 
 
@@ -19,8 +21,7 @@ print(
 
 print()
 print()
-file = open('url.txt','r')
-payloads = open('payloads.txt','r')
+
 def Send_req(url,payload):
     #while url[-1] != '=':
      #   url = url[:-1]
@@ -35,9 +36,21 @@ def Send_req(url,payload):
 
     except Exception as e:
         pass
-file = file.readlines()
+
+if __name__ == "__main__":
+    try:
+        payloads = sys.argv[1].strip()
+        urls = sys.argv[2].strip()
+    except IndexError:
+        print("[-] Usage: python3 %s <payloads> <urls>" % sys.argv[0])
+        print("[-] Example: python3 %s payload.txt url.txt" % sys.argv[0])
+        sys.exit(-1)
+
+payloads = open(f'{payloads}', 'r', encoding='utf-8')
+urls = open(f'{urls}', 'r', encoding='utf-8')
+payloads = payloads.readlines()
 for payload in payloads:
-    for url in file:
+    for url in urls:
         url = url.strip('\n')
         payload = payload.strip('\n')
         threading.Thread(target=Send_req,args=(url,payload,)).start()
