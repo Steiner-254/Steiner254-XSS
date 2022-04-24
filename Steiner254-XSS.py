@@ -31,7 +31,7 @@ def Send_req(url,payload):
 
         res = requests.get(url)
         if payload in res.text:
-           print(Fore.RED +'XSS Found   -->','   ' , f"{url}" + Fore.RESET)
+           print(Fore.GREEN +'XSS Found   -->','   ' , f"{url}" + Fore.RESET)
 
 
     except Exception as e:
